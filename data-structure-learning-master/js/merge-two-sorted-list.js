@@ -12,7 +12,7 @@
  */
 var mergeTwoLists = function (list1, list2) {
   /**
-   * Algorithm
+   *Algorithm
    *
    * 1. Create a head to store staring point and current to store current element of list
    * 2. Traverse through both list while they havent reached the end

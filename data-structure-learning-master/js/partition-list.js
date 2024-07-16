@@ -42,7 +42,7 @@ function ListNode(val, next) {
  */
 var partition = function (head, x) {
   /**
-   * Algorithm
+   *Algorithm
    *
    * 1. Create 2 list left and rigt with initial val as 0 or -1
    * 2. Creat 2 moe variable to handle current position of lef and irhg tlist

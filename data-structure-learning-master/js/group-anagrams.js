@@ -5,14 +5,14 @@
 var groupAnagrams = function (strs) {
   /**
    * Logic
-   * For each anagram, Each string is gonna be exac same after sorting
+   * For each anagram, Each string is gonna be exac same after sorting,
    * 
    * Algorithm
    * 1. Iterate through Array
-   * 2. Sort the current string
+   * 2. Sort the current string,
    *  a. If sorted string is not present in map then store it as key and value as unsorted strng in array
    *  b. If present then push it in value array
-   * 3. Iteratre through Map and store the vales in a new array
+   * 3. Iteratre through Map and store the vales in a new array.
    */
 
   let mapping = {};

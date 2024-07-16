@@ -12,7 +12,7 @@
  * @return {ListNode}
  */
 var getIntersectionNode = function (headA, headB) {
-  /**
+  /** Algorithm
    * Time complexity O(m+n)
    * 
    * Keep iterating throgh list until l1 is not equal to l2

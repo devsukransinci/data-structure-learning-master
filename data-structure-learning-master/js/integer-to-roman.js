@@ -3,9 +3,9 @@
  * @return {string}
  */
 var intToRoman = function (num) {
-  // 1. Create a map for All roman vlues to numbre mpping
+  // 1. Create a map for All roman vlues to numbre mapping
   // 2. Itetrate through the map
-  // 3. Divide the 'num' by current itr 'n'  and store its mapping n result, Calculate num%n
+  // 3. Divide the 'num' by current itr 'n'  and store its mapping n result, Calculate num%n ,
   const map = {
     M: 1000,
     CM: 900,

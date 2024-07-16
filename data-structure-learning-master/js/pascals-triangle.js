@@ -4,7 +4,7 @@
  */
 var generate = function (numRows) {
   /**
-   * Explanations
+   *Algorithm
    * 1. First Array will have 1 item -> 1
    * 2. Sevond row will have 2 item -> 1, 1
    * 3. Third row will have 3 items -> 1, arr[n-1][0] + arr[n-1][1], 1

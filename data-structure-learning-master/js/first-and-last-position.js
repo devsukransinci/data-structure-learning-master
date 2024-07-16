@@ -9,7 +9,7 @@ var searchRange = function (nums, target) {
    * 
    * 1. If length is 1 then check if value matches target and return 0, 0 else -1, -1
    * 2. Run a birnary serach where increment left as left = mid + 1;
-   * 3. Decrement right as mid - 1 if target less than mid
+   * 3. Decrement right as mid - 1 if target less than mid,
    * 3. If same then -> take 2 temp variabl -> Decremenet t1 until its same as target, ncrement t2 until its same as target -> return t1, t2
    */
   if (nums.length === 1) {

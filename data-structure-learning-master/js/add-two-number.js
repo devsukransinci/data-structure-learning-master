@@ -17,7 +17,7 @@ function ListNode(val, next) {
 const addTwoNumbers = function (l1, l2) {
   // Algoright
   
-  // 1. Create a variable to storae sum of list items AND carry 'sum'
+  // 1. Create a variable  to storae sum of list items AND carry 'sum'
   // 2. Create a variable to store current head of new list 'current' with first item as 0
   // 3. Create var to store head of actual new list 'result'
   // 4. Traverse to both list until both are null

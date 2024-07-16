@@ -6,9 +6,9 @@ var firstUniqChar = function (s) {
   /**
    * Algorithm
    *
-   * 1. Create a map and store count
-   * 2. Iterate through map and see first element having count as 1 tenn return 1
-   * 3. Reurn -1 after iteration of loop
+   * 1. Create a map and store count,
+   * 2. Iterate through map and see first element having count as 1 tenn return 1,
+   * 3. Reurn -1 after iteration of loop.
    */
   let map = new Map();
   for (let i = 0; i < s.length; i++) {

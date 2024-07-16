@@ -13,7 +13,7 @@ var isHappy = function (n) {
 };
 
 /**
- *
+ 
  * @param {number} n
  */
 function squareSum(n) {

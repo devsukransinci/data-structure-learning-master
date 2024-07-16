@@ -6,16 +6,16 @@
 var fourSum = function (nums, target) {
   /**
    * 1. Sort the numbers
-   * 2. Run a for loop till n-3 (To compensate for 2nd, 3rd and 4th val)
-   * 3. Compare i-1th and ith element, if same then skip the iteration
-   * 4. Run another for loop for finding 2nd, 3rd, 4th Val
-   * 5. Compare j and j-1th lement , if same then skip iteration
-   * 6. Create k as mid element between j and l, Create l as last elemnt in 4 element group
+   * 2. Run a for loop till n-3 (To compensate for 2nd, 3rd and 4th val),
+   * 3. Compare i-1th and ith element, if same then skip the iteration,
+   * 4. Run another for loop for finding 2nd, 3rd, 4th Val,
+   * 5. Compare j and j-1th lement , if same then skip iteration,
+   * 6. Create k as mid element between j and l, Create l as last elemnt in 4 element group,
    * 7. Loop until j < k
-   * 8. Cal sum of i, j, k, l element
+   * 8. Cal sum of i, j, k, l element,
    * 9. If sum = target -> Push element in result arr -> increment k until its not a repeat val -< decrement l until its not repeat
-   * 10. If sum < target then incremnt k
-   * 11. If sum > target then decrement l
+   * 10. If sum < target then incremnt k,
+   * 11. If sum > target then decrement l,
    */
 
   // Sort

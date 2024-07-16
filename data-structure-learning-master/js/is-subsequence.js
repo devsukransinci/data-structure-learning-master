@@ -5,7 +5,7 @@
  */
 var isSubsequence = function (s, t) {
   /**
-   * Algoritmh
+   * Algorithm
    * 
    * 1. Create a index to store the current matched subsequence index
    * 2. Iterate hrough the t loop

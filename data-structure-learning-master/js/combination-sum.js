@@ -8,7 +8,7 @@ var combinationSum = function (candidates, target) {
    * 
    * Description
    * Recurvie add each element with every other elemnt until sum is equal to target
-   * If Equal to target then save the combination of number
+   * If Equal to target then save the combination of number,
    * 
    * Algorithm
    *

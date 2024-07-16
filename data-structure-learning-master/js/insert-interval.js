@@ -13,7 +13,7 @@ var insert = function (intervals, newInterval) {
       return res;
     }
     // New inerval is greater than current interval end,
-    // then simply append curernt interval to output
+    // then simply append curernt interval to output,
     else if (newInterval[0] > intervals[i][1]) {
       res.push(intervals[i]);
     }
@@ -26,8 +26,8 @@ var insert = function (intervals, newInterval) {
       ];
     }
   }
-  // If neINterval ends up being the last item
-  // then insert and return result
+  // If neINterval ends up being the last item,
+  // then insert and return result,
   res.push(newInterval);
   return res;
 };

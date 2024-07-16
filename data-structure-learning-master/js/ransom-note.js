@@ -5,6 +5,7 @@
  */
 var canConstruct = function (ransomNote, magazine) {
   /**
+   * Algorithm
    * Steps
    * 
    * 1. Create a map from Magazine to store the letter and count of occurence

@@ -8,7 +8,7 @@ var combinationSum2 = function (candidates, target) {
    * 1. Sort the numbers
    * 2. Create a rescurive function with 3 param, 1. Combinaton arr, position, Current sum
    *  a. If sum=0 then push the combination arr in result arr
-   *  b. If sum is negative then return
+   *  b. If sum is negative then return,
    *  c. Itegrate through the main array from current position to last element
    *    -> If prev el is same as current then skip
    *    -> Push currentn el, recusrive call fn as cmbination arr, i+1, sum - current el

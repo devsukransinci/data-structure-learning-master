@@ -12,7 +12,7 @@
  */
 var invertTree = function (root) {
   /**
-   * Recursively swap left with right
+   * Recursively swap left with right,
    */
   const backtrack = (temp) => {
     if (!temp) return null;

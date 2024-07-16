@@ -8,7 +8,7 @@ var maxArea = function (height) {
   // For each iteration, Calculate area such that length will be the min(first, last), increment line on whichever side its shorter
 
   // height -> Array of length n
-  // n = height.length
+  // n = height.length,
   let result = 0;
   let firstLineIdx = 0;
   let lastLineIdx = height.length - 1;

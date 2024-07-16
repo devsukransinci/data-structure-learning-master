@@ -4,7 +4,7 @@
  */
 var nextPermutation = function (nums) {
   /**
-   * Algorithm
+   *Algorithm
    * 
    * 1. Find the first decreasing number from end
    * 2. If found, Find the number just bigger than decresing n umber then swap 

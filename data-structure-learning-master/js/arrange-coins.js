@@ -8,7 +8,7 @@ var arrangeCoins = function (n) {
    * 
    * 1. Initialize rows=1 and couns required as 0
    * 2. Check if nput is less then coinsReuiqred, if yes then return rows
-   * 3. Else Decrement inout by coinsRequired
+   * 3. Else Decrement  inout by coinsRequired
    * 4. Increment cointsRequired and rouws 
    * 
    */

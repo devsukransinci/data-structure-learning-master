@@ -38,7 +38,7 @@ let expandAroundCenter = function (s, left, right) {
     right++;
   }
   //the loop will exit once it verifies that there isn't a palindrome any more. So L and R are both off by one.
-  //correct off by one error
+  //correct off by one error,
   right = right - 1;
   left = left + 1;
   // Caculate the length of the palindrome

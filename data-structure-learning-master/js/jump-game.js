@@ -4,6 +4,7 @@
  */
 var canJump = function (nums) {
   /**
+   * Algorithm
    * Start from back
    * 1. Check n-1 element and see if its possible to reach to nth element
    *  If If its possible then decerement goal `i + nums[i] >= goal then goal = i` => (Current Index + value stored in index = Allowing to reach or not?)

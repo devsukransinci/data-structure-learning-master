@@ -1,6 +1,7 @@
 var canWinNim = function (n) {
   /**
    * 
+   * Algorithm
    * We are playing first
    * a erson can remove 1to3 stones
    * n -> Number of stones

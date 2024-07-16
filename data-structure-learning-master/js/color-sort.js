@@ -9,7 +9,7 @@ var sortColors = function (nums) {
     nums[i] = temp;
   };
 
-  // Declare a left and right pointer
+  // Declare a left  and right pointer
   let left = 0;
   let right = nums.length - 1;
   // Counter to tract current value

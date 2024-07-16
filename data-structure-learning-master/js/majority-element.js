@@ -3,7 +3,7 @@
  * @return {number}
  */
 var majorityElement = function (nums) {
-  // Boyer Moore algorithm
+  // Boyer Moore Algorithm
   // USe 2 variable result and counter
   // Increment counter wen value is same
   // Decerement when a new value occurs

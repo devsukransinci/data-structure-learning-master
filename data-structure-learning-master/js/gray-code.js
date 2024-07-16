@@ -6,10 +6,10 @@ var grayCode = function (n) {
   /**
    * Algorithm
    * 
-   * 1. Calculate the mxa sequece count = 2 to the power n
-   * 2. Iterate through while loop and perform
+   * 1. Calculate the mxa sequece count = 2 to the power n,
+   * 2. Iterate through while loop and perform ,
    *  -> Shift current val right by 1 -> XOR with current val (Resulnat will be a decimal number)
-   * 3. Store the result in an Array
+   * 3. Store the result in an Array.
    */
   let max = Math.pow(2, n) - 1;
 

@@ -7,7 +7,8 @@ var addStrings = function (num1, num2) {
   /**
    * Algorith
    * 
-   * 1. Calculate the length of nth srings and take a sum= '' and carry =0 variable
+   * 
+   * 1. Calculate  the length of nth srings and take a sum= '' and carry =0 variable
    * 2. Loop when i, j are >= 0 or carry > 1
    * 3. Typecast the individual number to integer
    * 4. Sum the number + carr

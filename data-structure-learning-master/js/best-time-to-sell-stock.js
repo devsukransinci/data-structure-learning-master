@@ -5,7 +5,7 @@
 var maxProfit = function (prices) {
   /**
    * Algorithm
-   * 
+   * *
    * 1. Create two pointers and a variable to stor max profile
    * 2. Iterate throug prices while right (Sell) pointer is less than last item
    * 3. If left < right (Stocks went up) then calculate new profile and calculate max profit

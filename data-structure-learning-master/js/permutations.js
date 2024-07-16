@@ -10,6 +10,7 @@ var permute = function (nums) {
     else {
       for (let i = 0; i < remaining.length; i++) {
         // Loop through remaining elements
+        
         current.push(remaining[i]); // Insert the iTH element onto the end of current
         permutations(
           current.slice(), // Current State of Item array

@@ -15,7 +15,7 @@ var numDecodings = function (s) {
    * @returns number
    */
   const dfs = (i) => {
-    if (dp[i]) return dp[i]; // Avoid repition
+    if (dp[i]) return dp[i]; // Avoid repition,
     if (s[i] == '0') return 0; // Invalid value
     let res = dfs(i + 1);
 

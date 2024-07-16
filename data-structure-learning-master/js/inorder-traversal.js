@@ -24,6 +24,7 @@ var inorderTraversal = function (root) {
 };
 
 // Trouble shoot ater
+
 /**
  * @param {TreeNode} root
  * @return {number[]}

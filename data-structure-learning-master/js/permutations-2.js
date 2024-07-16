@@ -6,7 +6,7 @@ var permuteUnique = function (nums) {
   /**
    * Use Backg tracking
    *
-   * 1. Creata a recurvie fn with two params, 1. CUrernt Array, 2. Remaing Elements
+   * 1. Creata a recurvie fn with two params, 1. Current Array, 2. Remaing Elements
    * 2. Use base case as when remaining elements length is 0
    * 3. If prev and current element are same then suip the iteratio nt prevent uplication
    * 4. Recurviely call the funtion by adin one el from remaing array to current, remaining array after rmeing first element

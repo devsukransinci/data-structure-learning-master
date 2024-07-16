@@ -4,9 +4,11 @@
  * @param {integer} version number
  * @return {boolean} whether the version is bad
  * isBadVersion = function(version) {
- *     ...
+ * ***   
+ *  ...
  * };
  */
+
 
 /**
  * @param {function} isBadVersion()
