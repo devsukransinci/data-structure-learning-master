@@ -8,6 +8,7 @@ var exist = function (board, word) {
   // Backtracking
   // Go through every single word
   /**
+   * 
    * Algorithm
    *
    * 1. Compare each element with the starting element of the string

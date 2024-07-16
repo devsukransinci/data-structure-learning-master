@@ -11,6 +11,7 @@ var summaryRanges = function (nums) {
     strt = nums[idx];
 
     // While difference beten current and next inde is 1 increment idx
+    
     while (idx + 1 < nums.length && nums[idx + 1] == nums[idx] + 1) {
       idx++;
     }

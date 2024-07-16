@@ -3,6 +3,7 @@
  * @return {number}
  */
 var lengthOfLastWord = function (s) {
+  
   // While whitespace remove them
   // Calculate length until we reach a space or the counter is greater than 0
   let i = 0;

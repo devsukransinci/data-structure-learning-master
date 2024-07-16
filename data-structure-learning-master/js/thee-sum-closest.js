@@ -5,6 +5,7 @@
  */
 var threeSumClosest = function (nums, target) {
   // Algorithm
+  
   // 1. Sort the array
   // 2. Take a var closest and assign a very high value
   // 3. Run a for loop till nums.length - 2 (To accomodate 2nd and 3rd num)

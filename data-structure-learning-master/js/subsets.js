@@ -7,7 +7,6 @@ var subsets = function (nums) {
   let curr = [];
 
   /**
-   *
    * @param {number} i
    */
   const backtracking = (i) => {

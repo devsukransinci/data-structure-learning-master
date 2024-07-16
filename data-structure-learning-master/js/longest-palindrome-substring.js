@@ -31,7 +31,8 @@ let longestPalindrome = function (s) {
 };
 
 let expandAroundCenter = function (s, left, right) {
-  //first two conditions prevent an infinite loop
+
+  //first two conditions prevent an infinite loop,
   //second condition verifies its a palindrome
   while (left >= 0 && right < s.length && s[left] === s[right]) {
     left--;

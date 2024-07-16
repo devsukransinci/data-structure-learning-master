@@ -4,7 +4,8 @@
  */
 var removeDuplicates = function (nums) {
   /**
-   * Algoritmh
+   * Algorithö
+   *
    *
    * 1. Iterate throug ht list
    * 2. Mark the dulicates as X using a temp variable and counter

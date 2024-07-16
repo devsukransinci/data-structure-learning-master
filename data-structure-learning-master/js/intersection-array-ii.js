@@ -6,7 +6,6 @@
 var intersect = function (nums1, nums2) {
   /**
    * Algorithm
-   * 
    * 1. Create a map storing all the keys and their count
    * 2. Iterate through second array and if the value exists in map then decrement map count and insert value in result array
    */

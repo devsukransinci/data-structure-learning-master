@@ -7,4 +7,5 @@ var isPowerOfThree = function (n) {
   return false;
 };
 
+
 console.log(isPowerOfThree(27));

@@ -5,7 +5,7 @@
  */
 var strStr = function (haystack, needle) {
   /**
-   * Algorithm
+   *Algorithm
    * 
    * 1. Iterage through the string character,
    * 2. Check if Subtring starting from ith pos to needle.length pos matches needle.

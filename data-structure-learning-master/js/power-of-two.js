@@ -4,6 +4,7 @@
  */
 var isPowerOfTwo = function (n) {
   /**
+   * 
    * Keep dividing by 2 until n==1
    */
   while (n >= 1) {

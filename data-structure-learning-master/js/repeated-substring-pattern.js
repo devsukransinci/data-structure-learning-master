@@ -5,6 +5,7 @@
 var repeatedSubstringPattern = function (s) {
   /**
    * Algorithm
+   * 
    *
    * 1. Double the string
    * 2. Delete first and last eemnt

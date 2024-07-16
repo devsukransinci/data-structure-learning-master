@@ -1,5 +1,4 @@
-/**
- * Algorithm
+/**Algorithm
  * // Definition for a Node.
  * function Node(val, children) {
  *    this.val = val;

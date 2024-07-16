@@ -7,7 +7,6 @@ var jump = function (nums) {
    * Explanation
    * Calculate the minimjm number of jump required to reach the end of array
    * Assume it is posible to reach the end of array
-   * 
    * Solution
    * Keep a trackof range  shortest possilb jump and longest possible jump until we reach end of array
    * Keep iterating by moving shortest possible jum as longest jump (From prev iteration) + 1 and calculating new longest jum

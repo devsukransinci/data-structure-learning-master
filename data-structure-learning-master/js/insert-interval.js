@@ -6,7 +6,7 @@
 var insert = function (intervals, newInterval) {
   let res = [];
   for (let i = 0; i < intervals.length; i++) {
-    // If new INterval End is less then current intervl start then
+    // If new INterval End is less then current intervl start then,
     // INsert the interval and return the remainin list
     if (newInterval[1] < intervals[i][0]) {
       res.push(newInterval, ...intervals.slice(i));

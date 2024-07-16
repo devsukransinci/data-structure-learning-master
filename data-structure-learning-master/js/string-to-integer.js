@@ -10,6 +10,7 @@ var myAtoi = function (str) {
   let sign = 1;
 
   // Remove trailing spaces
+  
   while (str[counter] === ' ') counter++;
 
   // Check if number is positive or negative

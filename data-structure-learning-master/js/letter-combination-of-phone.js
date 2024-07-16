@@ -5,6 +5,7 @@
 var letterCombinations = function (digits) {
   /**
    * Algorithm
+   * 
    * 1. Create an Array with mapping of each number with letter, Create a result array
    * 2. If no input then no combination possible
    * 3. Create a fn (pos, str) that recursively creates a pairing of each number with other number using for loop

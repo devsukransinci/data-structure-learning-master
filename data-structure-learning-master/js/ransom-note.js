@@ -4,6 +4,7 @@
  * @return {boolean}
  */
 var canConstruct = function (ransomNote, magazine) {
+  
   /**
    * Algorithm
    * Steps

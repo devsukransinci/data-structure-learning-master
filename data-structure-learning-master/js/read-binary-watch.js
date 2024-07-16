@@ -6,6 +6,7 @@ var readBinaryWatch = function (num) {
   /**
    * Algorithm
    * 
+   * 
    * 1. Create an array to store the times
    * 2. Loop through the hours and minutes
    * 3. Calculate the number of 1s in the binary representation of h and m

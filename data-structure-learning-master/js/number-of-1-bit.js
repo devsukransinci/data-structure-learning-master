@@ -23,4 +23,4 @@ var hammingWeightUnoptimised = function (n) {
     .filter((f) => f == '1').length;
 };
 
-console.log(hammingWeightUnoptimised(00000000000000000000000000001011));
+console.log(hammingWeightUnoptimised());

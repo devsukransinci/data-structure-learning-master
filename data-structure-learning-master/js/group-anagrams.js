@@ -6,7 +6,6 @@ var groupAnagrams = function (strs) {
   /**
    * Logic
    * For each anagram, Each string is gonna be exac same after sorting,
-   * 
    * Algorithm
    * 1. Iterate through Array
    * 2. Sort the current string,

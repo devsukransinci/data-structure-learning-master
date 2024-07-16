@@ -4,6 +4,7 @@
  */
 var restoreIpAddresses = function (s) {
   // Make height of tree => 5 necaus e we have to return when we have more than 4 intger
+  
 
   if (s.length > 12) return [];
 

@@ -11,6 +11,7 @@ var simplifyPath = function (path) {
 
   /**
    * Algorithm
+   * 
    * 1. Splith on /
    * 2. Iterate
    * 3. If elemnt is . or whitespace then skip

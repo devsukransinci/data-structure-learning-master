@@ -1,5 +1,6 @@
 function toHex(num) {
   // Create Map
+  
   const Hex = {
     0: '0',
     1: '1',

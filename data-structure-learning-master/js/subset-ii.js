@@ -7,7 +7,6 @@ var subsetsWithDup = function (nums) {
   nums.sort();
 
   /**
-   *
    * @param {number} i
    * @param {number[]} curr
    */

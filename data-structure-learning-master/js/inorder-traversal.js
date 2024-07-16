@@ -5,6 +5,7 @@ function TreeNode(val, left, right) {
 }
 
 /**
+ * 
  * @param {TreeNode} root
  * @return {number[]}
  */

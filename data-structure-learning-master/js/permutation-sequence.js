@@ -49,6 +49,7 @@ var getPermutation = function (n, k) {
 
   let generateResult = (n, k) => {
     if (n <= 0) return facts[0];
+    
     // Clculate the zie of block (Number of permutation with same firs digit) i.e (n-1)!
     let sizeOfBlock = factorialize(n - 1);
     // Clculate the block in which k exist using (k/sizeof block)

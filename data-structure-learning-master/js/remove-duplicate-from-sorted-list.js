@@ -9,6 +9,7 @@ function ListNode(val, next) {
 var deleteDuplicates = function (head) {
   /**
    *Algorithm
+   
    *
    * 1. Run a while loop to iterate through he list
    * 2. In repeat, Compare ucrrent val with next val, and if same then keep removing next node

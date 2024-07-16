@@ -8,7 +8,7 @@ var maxSubArray = function (nums) {
    * If tehe sum of previous positive umber is less than current negative number then assign the sum of previous number to variable and move ahead
    * 
    * 
-   * Algorithm
+   *Algorithm
    * Store maxSum as first ele and current sum as 0
    * Iterage through numbers
    * If sum is less than 0 then reset currSum to 0

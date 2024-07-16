@@ -9,6 +9,7 @@ var isPerfectSquare = function (num) {
 
 console.log(isPerfectSquare(16));
 /**
+ * 
  * 4 -> 2
  * 9 -> 3
  * 16 -> 4

@@ -5,6 +5,7 @@
  */
 var myPow = function (x, n) {
   /**
+   * 
    * Simple for loop ont work coz well end up handling lots of redundant scnearios
    */
   /** */

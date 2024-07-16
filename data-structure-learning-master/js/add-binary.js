@@ -5,6 +5,7 @@
  */
 var addBinary = function (a, b) {
   /**
+   * Algorithm
    * Reverse both the string as we are string from right hand side in theory
    * Iterate through the larger tring
    * If the iteration doesnt have a number, then use zero

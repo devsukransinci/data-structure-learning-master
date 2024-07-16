@@ -6,7 +6,6 @@
 var isSubsequence = function (s, t) {
   /**
    * Algorithm
-   * 
    * 1. Create a index to store the current matched subsequence index
    * 2. Iterate hrough the t loop
    * 3. In Every iteration, check if subsequebe string [matchedIndex] is present in t, if yes increment the index (This will insure relative order)

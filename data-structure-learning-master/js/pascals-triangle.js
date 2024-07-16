@@ -4,6 +4,7 @@
  */
 var generate = function (numRows) {
   /**
+   * 
    *Algorithm
    * 1. First Array will have 1 item -> 1
    * 2. Sevond row will have 2 item -> 1, 1

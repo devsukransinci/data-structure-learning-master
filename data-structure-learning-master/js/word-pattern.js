@@ -6,7 +6,6 @@
 var wordPattern = function (pattern, s) {
   /**
    * Steps
-   * 
    * SPlit the words
    * Store value: Key mapping in one map and jus keys in another
    * Iterate through the split words and check f they already exist and value alreay exit, if not then add

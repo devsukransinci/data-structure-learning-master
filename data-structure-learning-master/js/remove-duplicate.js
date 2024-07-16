@@ -9,6 +9,7 @@ var removeDuplicates = function (nums) {
       nums.splice(i, 1);
       i--;
     }
+    
   }
   console.log(nums);
 };

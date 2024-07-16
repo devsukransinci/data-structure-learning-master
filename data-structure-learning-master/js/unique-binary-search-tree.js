@@ -1,6 +1,7 @@
 /**
  * @param {number} n
  * @return {number}
+ * 
  */
 var numTrees = function (n) {
   let numTree = Array(n + 1).fill(1); // n+1 because we are going from 0

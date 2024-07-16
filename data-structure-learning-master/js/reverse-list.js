@@ -6,6 +6,7 @@ function ListNode(val, next) {
 /**
  * @param {ListNode} list
  */
+
 const printListNode = (list) => {
   if (!list) return console.log(null);
   let str = list.val;

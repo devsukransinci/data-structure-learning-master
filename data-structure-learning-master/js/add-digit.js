@@ -5,7 +5,6 @@
  */
 var addDigits = function (num) {
   /**
-   * 
    * Dvisibility of 9, when sum of its digit is divible by9 then nubmer is div by 9
    * Hence well moulus the number  by 9
    */

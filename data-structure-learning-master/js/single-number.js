@@ -4,6 +4,7 @@
  */
 var singleNumber = function (nums) {
   // XOR all the nums
+  
   // Same number XOR gives 0 and if tehr eis only one uniq number then that will be the resul
   let res = 0;
   for (let i = 0; i < nums.length; i++) {

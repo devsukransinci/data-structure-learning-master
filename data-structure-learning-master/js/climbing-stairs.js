@@ -4,6 +4,7 @@
  */
 var climbStairs = function (n) {
   /**
+   * Algorithm
    * We can use dynamic programming
    * If we remove repeated calculatin, we end up with linear
    * If we look it from back , then its a fibonacci series

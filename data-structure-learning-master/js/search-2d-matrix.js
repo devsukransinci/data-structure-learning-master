@@ -6,7 +6,6 @@
 var searchMatrix = function (matrix, target) {
   /**
    * Algorithm
-   * 
    * 1. Find the row in which data exist using binary search
    * 2. Find the col in which data exist unisng binrary search
    */

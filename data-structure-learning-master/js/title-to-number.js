@@ -1,6 +1,7 @@
 /**
  * @param {string} columnTitle
  * @return {number}
+ * 
  */
 var titleToNumber = function (columnTitle) {
   // 65 -> A

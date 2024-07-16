@@ -10,7 +10,6 @@ var numDecodings = function (s) {
     Math.min(num1, num2) <= num && Math.max(num1, num2) >= num;
 
   /**
-   *
    * @param {number} i
    * @returns number
    */

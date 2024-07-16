@@ -11,6 +11,7 @@ var spiralOrder = function (matrix) {
 
   while (left < right && top < bottom) {
     // Left to right
+    
     for (let i = left; i < right; i++) {
       output.push(matrix[top][i]);
     }

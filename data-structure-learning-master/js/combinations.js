@@ -5,7 +5,7 @@
  */
 var combine = function (n, k) {
   /**
-   * Algoritmh
+   *Algorithm
    *
    * 1. Create a reursive function with base case as combination=k,
    * 2. Iterate through the loop from start to <= n and insert current number in combination, recurively call the fn, pop the element inserted in combnation

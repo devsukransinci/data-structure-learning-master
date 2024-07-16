@@ -5,7 +5,7 @@
  */
 var combinationSum = function (candidates, target) {
   /**
-   * 
+   * Algorithm
    * Description
    * Recurvie add each element with every other elemnt until sum is equal to target
    * If Equal to target then save the combination of number,

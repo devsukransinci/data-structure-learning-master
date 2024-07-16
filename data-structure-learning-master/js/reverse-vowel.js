@@ -4,6 +4,7 @@
  */
 var reverseVowels = function (s) {
   // Use two pointeers
+  
   let tempStr = s.split('');
   let left = 0;
   let right = s.length - 1;

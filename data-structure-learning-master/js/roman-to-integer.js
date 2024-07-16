@@ -4,6 +4,7 @@
  */
 var romanToInt = function (s) {
   // Algorithm
+  
   // Iterate through the input string in reverse manner
   // Compare I and I + 1, if I is small then result - 1 else result + i
   const map = {

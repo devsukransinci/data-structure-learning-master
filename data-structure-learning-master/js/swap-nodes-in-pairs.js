@@ -7,6 +7,7 @@
  */
 class ListNode {
   /**
+   * 
    *
    * @param {number} val
    * @param {ListNode} next

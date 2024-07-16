@@ -5,7 +5,6 @@
 var generateMatrix = function (n) {
   /**
    * Algorithm
-   *
    * 1. Take 4 pointers for 4 corner
    * 2. While left is less than right and top < bottom keep iterating
    * 3. Go from left to right and insernt value in first row, go from top bottom and insert in last column, keep repeating

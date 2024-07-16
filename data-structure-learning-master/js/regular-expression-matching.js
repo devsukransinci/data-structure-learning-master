@@ -5,6 +5,7 @@
  */
 var isMatch = function (s, p) {
   // . -> 0 or mroe of any character
+  
   // * -> Zero or more of preceding element
   const sLen = s.length;
   const pLen = p.length;

@@ -7,6 +7,7 @@ var isIsomorphic = function (s, t) {
   /**
    * Algorithm
    * 
+   * 
    * 1. Create 2 maps
    * 2. Store value of s in one map and valueof 2 in another map
    * 3. Check if length is same, if not then hey are not isomorphic for sure

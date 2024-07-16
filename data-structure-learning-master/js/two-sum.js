@@ -1,7 +1,6 @@
 // Two Sum
 
 /**
- *
  * @param {number[]} arr
  * @param {number} target
  * @returns  {number[]}

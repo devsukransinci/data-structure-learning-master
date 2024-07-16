@@ -10,6 +10,7 @@ var reverse = function (x) {
     ans = ans * 10 + pop;
   }
   // Check if its a 32bit signed nteger
+  
   if (ans > Math.pow(2, 31) * -1 && ans < Math.pow(2, 31) - 1) {
     return ans;
   } else return 0;
