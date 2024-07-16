@@ -11,6 +11,8 @@ var addBinary = function (a, b) {
    * Add Both nmber + reslt in current index (It will be the carry value)
    * If sum is equal or greatir than 2 then, store sum%2 in current index and push cary 1 else just store sum in current index
    * Reverse and return
+   * 
+   * 
    */
   a = a.split('').reverse().join('');
   b = b.split('').reverse().join('');

@@ -11,6 +11,7 @@ var addStrings = function (num1, num2) {
    * 2. Loop when i, j are >= 0 or carry > 1
    * 3. Typecast the individual number to integer
    * 4. Sum the number + carr
+   * 
    * 5. Append the new sum at start of sum string
    *    If >1 then newSum%10 else newSum
    * 6. Check if carryexists
